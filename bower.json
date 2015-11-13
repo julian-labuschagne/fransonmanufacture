@@ -1,0 +1,27 @@
+{
+  "name": "julian.kuberfirma.com",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Julian Labuschagne <julian@kuberfirma.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  },
+  "devDependencies": {
+    "font-awesome": "~4.4.0",
+    "typopro-web": "~3.4.1",
+    "exo": "http://www.fontsquirrel.com/fonts/download/exo"
+  }
+}

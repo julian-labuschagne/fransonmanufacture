@@ -1,0 +1,23 @@
+@navbar-bg-gradient-top: #000000;
+@navbar-bg-gradient-bottom: #404040;
+
+.navbar-custom {
+	margin-bottom: 0;
+	border-radius: 0;
+	
+	background-color: #000000;
+	#gradient .vertical(@navbar-bg-gradient-top, @navbar-bg-gradient-bottom);
+	
+	.navbar-brand {
+		color: #ffffff;
+	}
+	
+	.navbar-nav > li > a {
+		color: #ffffff;
+	}
+	
+	.navbar-nav > .active > a  {
+		color: #ffffff;
+		background-color: @theme-col-5;
+	}
+} 
