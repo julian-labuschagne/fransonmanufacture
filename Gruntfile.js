@@ -19,12 +19,18 @@ module.exports = function (grunt) {
 			files: ['src/css/*.less'],
 			tasks: ['less']
 		},
+		concat: {
+			js: {
+				src: ['src/js/angular/app.js', 'src/js/angular/controllers/**.js'],
+				dest: 'dist/js/app.js'
+			}
+		},
 		serve: {
 			options: {
 				port: 9000,
 				'aliases': {
 					'test.js': {
-						tasks: ['less'],
+						tasks: ['less', 'concat'],
 						output: 'index.html'
 					}
 				}
@@ -35,9 +41,11 @@ module.exports = function (grunt) {
 
 	// Load Grunt Plugins
 	grunt.loadNpmTasks('grunt-contrib-less');
+	grunt.loadNpmTasks('grunt-contrib-concat');
+	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-serve');
 
 	// Create tasks
-	grunt.registerTask('default', ['less']);
+	grunt.registerTask('default', ['less', 'concat']);
 };
