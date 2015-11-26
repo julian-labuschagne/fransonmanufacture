@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+    	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title></title>
+
+		<link href="dist/css/app.css" rel="stylesheet">
+
+		<script src="bower_components/jquery/dist/jquery.min.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<script src="bower_components/angular/angular.min.js"></script>
+	</head>
+	<body ng-app="myApp">
+
+		<div class="main">
+			<!-- Navigation -->
+			<nav class="navbar navbar-custom">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Franson Manufacturing</a>	
+					</div>
+					<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			
+			<!-- Jumbotron -->
+			<section id="promo">
+				<div class="container">
+					<div class="row">
+						<div class="jumbotron">
+							<h1>Franson Manufacturing</h1>
+							<p>
+								This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.
+							</p>
+							<p>
+								<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Categories -->
+			<section id="resources">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-3">
+							<h2 class="section-title">
+								Divisions
+							</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="resource-icon">
+								<img src="dist/img/stock-photo-64751759-exhaust-pipe.jpg" class="img-responsive img-rounded">
+							</div>
+							<h3>Cheetah Exhaust</h3>
+							<p>
+								Suspendisse potenti. Aenean posuere eros ac maximus dictum. Vivamus sit amet mollis odio. Phasellus non quam id justo sollicitudin venenatis at quis neque. Nam sodales placerat nisi non finibus. Nunc id lectus nulla. Nunc sit amet magna metus. Nunc dictum auctor enim sed fringilla. Ut fermentum est purus, sed interdum ex feugiat at. Vestibulum lorem leo, finibus id ligula eu, tempor sagittis ex. Aliquam congue, est et luctus semper, elit lectus dignissim dolor, sed consectetur risus turpis non augue. 
+							</p>
+						</div> 
+						<div class="col-sm-4">
+							<div class="resource-icon">
+								<img src="dist/img/stock-photo-66277287-cogwheels-mechanism-counter.jpg" class="img-responsive img-rounded">
+							</div>
+							<h3>Franson Manufacturing</h3>
+							<p>Praesent vel enim quis ipsum bibendum molestie eget sit amet sem. Ut tempor elementum sagittis. Donec ut diam eget arcu auctor pulvinar. Quisque at mauris placerat, cursus turpis lacinia, egestas lectus. Cras urna nibh, viverra sed aliquet convallis, feugiat quis dolor. Curabitur commodo, sapien non ornare faucibus, quam tortor gravida ante, eu fermentum ante diam nec velit. Quisque tempus scelerisque turpis eu maximus. Nunc non lorem sit amet magna sagittis faucibus eget at lectus. 
+								
+							</p>
+						</div>
+						<div class="col-sm-4">
+							<div class="resource-icon">
+								<img src="dist/img/stock-photo-15111345-off-roading-thrill.jpg" class="img-responsive img-rounded">
+							</div>
+							<h3>Extreme Off Road Designs</h3>
+							<p>
+								Integer ipsum quam, varius eget nulla ut, porttitor luctus nisl. Pellentesque sit amet tincidunt mi. Integer ac pretium lorem. Quisque quis malesuada ante. Phasellus vel mauris a ex tristique accumsan vitae sit amet lacus. Donec molestie nulla sed eleifend pulvinar. Maecenas luctus gravida dui a aliquam. Nunc nec turpis ante. Vestibulum faucibus metus nisi, eu pretium eros aliquet a. 
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Flickr -->
+			<section id="flickr" ng-controller="FlickrController">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-3">
+							<h2 class="section-title">Latest Images (Flickr)</h2>
+						</div>
+					</div>
+					<div class="row  mg-popup">
+						<div class="col-md-3" ng-repeat="image in images">
+							<div class="thumbnail">
+								<a class="info" ng-href="{{ image.media.m | imagesize }}b.jpg">
+									<img ng-src="{{ image.media.m | imagesize }}m.jpg" class="img-responsive">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			
+			<!-- Social Media -->
+			<section id="social-media">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-3">
+							<h2 class="section-title">Follow us on social media</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="social-media-icon">
+								<i class="fa fa-twitter-square"></i>
+							</div>
+							<div class="social-media-title">
+								Twitter
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="social-media-icon">
+								<i class="fa fa-instagram"></i>
+							</div>
+							<div class="social-media-title">
+								Instagram
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="social-media-icon">
+								<i class="fa fa-google-plus-square"></i>
+							</div>
+							<div class="social-media-title">
+								Google+
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="social-media-icon">
+								<i class="fa fa-youtube-square"></i>
+							</div>
+							<div class="social-media-title">
+								Youtube
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<!-- Footer -->
+			<section id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<p>Copyright &copy; 2015 Cheetah Exhaust. All Rights Reserved.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		
+		</div>
+
+	<!-- AngularJS -->
+	<script src="dist/js/app.js"></script>
+	</body>
+</html>
