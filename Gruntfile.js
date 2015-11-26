@@ -21,8 +21,18 @@ module.exports = function (grunt) {
 		},
 		concat: {
 			js: {
-				src: ['src/js/angular/app.js', 'src/js/angular/controllers/**.js'],
+				src: [
+					'bower_components/magnific-popup/dist/jquery.magnific-popup.min.js',
+					'src/js/jquery/magnificient_popups.js',
+					'src/js/angular/app.js', 
+					'src/js/angular/controllers/**.js', 
+					'src/js/angular/filters/**.js', 
+				],
 				dest: 'dist/js/app.js'
+			},
+			css: {
+				src: ['bower_components/magnific-popup/dist/magnific-popup.css', 'dist/css/app.css'],
+				dest: 'dist/css/app.css'
 			}
 		},
 		serve: {
