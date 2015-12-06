@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+{{ partial "logo.html" . }}
+
+<section id="gallery">
+	<div class="container">
+		<div class="row">
+				{{ range .Data.Pages }}
+					<div class="col-md-4">
+						<a href="#" class="thumbnail">
+							<img src="{{.Params.gallery_path}}{{ .Params.image }}" class="img-responsive">
+						</a>
+					</div>
+				{{ end }}
+		</div>
+	</div>
+</section>
+
+{{ partial "copyright" . }}
+
+{{ partial "footer.html" . }}

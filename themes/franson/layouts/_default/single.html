@@ -1,0 +1,31 @@
+<!-- Header -->
+{{ partial "header.html" . }}
+
+<!-- Navigation --> 
+{{ partial "navigation.html" . }}
+
+
+<!-- Logo and slogan -->
+{{ partial "logo.html" . }}
+
+<!-- Content -->
+<section id="content">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 id="title" class="page-header">{{ .Title }}</h1>
+				<div>
+					<article id="content">
+					   {{ .Content }}
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Copyright -->
+{{ partial "copyright.html" . }}
+
+<!-- Footer -->
+{{ partial "footer.html" . }}

@@ -1,0 +1,39 @@
+<!-- Instagram -->
+<section id="instagram" ng-controller="MainController">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<h2 class="section-title">Latest Images (Instagram)</h2>
+			</div>
+		</div>
+		<div class="row  mg-popup">
+			<div class="col-md-3" ng-repeat="image in images">
+				<div class="thumbnail">
+					<a class="info" ng-href="[[ image.images.standard_resolution.url ]]">
+						<img ng-src="[[ image.images.low_resolution.url ]]" class="img-responsive">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="row instagram-pager">
+			<div class="col-md-1">
+				<div class="previous" ng-hide="counter == 0">
+					<button ng-click="previous(pagination_previous)" class="btn btn-default">
+						<i class="fa fa-arrow-circle-left"></i>
+					</button>
+				</div>
+			</div>
+			<div class="col-md-10">
+				<div class="counter">Page [[ counter + 1 ]]</div>
+			</div>
+			<div class="col-md-1">
+				<div class="next">
+					<button ng-click="next(pagination_next)" class="btn btn-default">
+						<i class="fa fa-arrow-circle-right"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
