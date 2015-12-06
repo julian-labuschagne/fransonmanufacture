@@ -17,4 +17,4 @@ title = "Franson Manufacturing"
 	name = "Gallery"
     weight = 110
     identifier = "gallery"
-    url = "/gallery/"
+    url = "/image/"
