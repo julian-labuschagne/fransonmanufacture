@@ -25,7 +25,8 @@ module.exports = function (grunt) {
 				src: [
 					'bower_components/jquery/dist/jquery.min.js',
 					'bower_components/bootstrap/dist/js/bootstrap.min.js',
-					'bower_components/magnific-popup/dist/jquery.magnific-popup.min.js'
+					'bower_components/magnific-popup/dist/jquery.magnific-popup.min.js',
+					'src/js/jquery/magnificient_popups.js'
 				],
 				dest: 'themes/<%= hugo_theme %>/static/assets/js/app.js'
 			},
