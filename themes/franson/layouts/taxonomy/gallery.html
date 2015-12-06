@@ -7,10 +7,15 @@
 <section id="gallery">
 	<div class="container">
 		<div class="row">
+			<div class="col-sm-12">
+				<h1>{{ .Title }}</h1>
+			</div>
+		</div>
+		<div class="row  mg-popup">
 				{{ range .Data.Pages }}
 					<div class="col-md-4">
-						<a href="#" class="thumbnail">
-							<img src="{{.Params.gallery_path}}{{ .Params.image }}" class="img-responsive">
+						<a href="{{.Params.gallery_path}}{{ .Params.image }}" class="thumbnail">
+							<img src="{{.Params.gallery_path}}thumb/{{ .Params.image }}" class="img-responsive">
 						</a>
 					</div>
 				{{ end }}
