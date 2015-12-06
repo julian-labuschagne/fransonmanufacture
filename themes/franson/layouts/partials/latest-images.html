@@ -1,0 +1,18 @@
+<section id="latest-images">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h2>Latest Images</h2>
+			</div>
+		</div>
+		<div class="row  mg-popup">
+			{{ range first 12 (where .Data.Pages "Section" "image") }}
+				<div class="col-md-4">
+					<a href="{{.Params.gallery_path}}{{ .Params.image }}" class="thumbnail">
+						<img src="{{.Params.gallery_path}}thumb/{{ .Params.image }}" class="img-responsive">
+					</a>
+				</div>
+			{{ end }}
+		</div>	
+	</div>
+</section>
