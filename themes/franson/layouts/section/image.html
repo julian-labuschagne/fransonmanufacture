@@ -1,0 +1,48 @@
+{{ partial "header.html" . }}
+
+{{ partial "navigation.html" . }}
+
+{{ partial "logo.html" . }}
+
+<section id="gallery">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-9">
+				<div class="row">
+					<div class="col-sm-12">
+						<h1 class="page-header">Latest {{ .Title }}</h1>
+					</div>
+				</div>
+				<div class="row">
+				{{ range first 12 .Data.Pages }}
+					<div class="col-md-4">
+						<a href="#" class="thumbnail">
+							<img src="{{.Params.gallery_path}}thumb/{{ .Params.image }}" class="img-responsive">
+						</a>
+					</div>
+				{{ end }}
+				</div>
+			</div>
+			
+			<div class="col-md-3">
+				<aside>
+					<div class="row">
+						<div class="col-sm-12">
+							<h2>Galleries</h2>
+						</div>
+					</div>
+					<div class="list-group">
+						{{ range $name, $taxonomy := .Site.Taxonomies.galleries }}
+							<a href="/galleries/{{ $name | urlize }}" class="list-group-item">{{ $name }}</a>
+						{{ end }}
+					</div>
+				</aside>
+			</div>
+		</div>
+	</div>
+</section>
+
+{{ partial "copyright" . }}
+
+{{ partial "footer.html" . }}
