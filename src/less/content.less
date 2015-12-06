@@ -1,3 +1,16 @@
+@page-title-color: @theme-col-1;
+@heading-2-color: @theme-col-1;
+@heading-3-color: @theme-col-1;
+@heading-4-color: @theme-col-1;
+@heading-5-color: @theme-col-1;
+
+@link-color: @theme-col-3;
+
+body {
+	background-color: #404040;
+}
+
+/** Headings **/
 h1, 
 h1.page-header {
 	color: @page-title-color;
@@ -24,4 +37,30 @@ h5 {
 
 a {
 	color: @link-color;
+}
+
+.btn-default {
+	color: #AEAFB0;
+	background-color: #CF0000;
+}
+
+
+/** Google Maps **/
+.google-maps {
+	position: relative;
+	padding-bottom: 75%; // This is the aspect ratio
+	height: 0;
+	overflow: hidden;
+}
+.google-maps iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+#content {
+	background-color: #ffffff;
+	padding-bottom: 20px;
 }

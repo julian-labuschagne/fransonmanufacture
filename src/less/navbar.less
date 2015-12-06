@@ -1,5 +1,6 @@
 @navbar-bg-gradient-top: #000000;
 @navbar-bg-gradient-bottom: #404040;
+@navbar-active-link-bg: #CF0000;
 
 .navbar-custom {
 	margin-bottom: 0;
@@ -7,7 +8,6 @@
 	
 	background-color: #000000;
 	#gradient .vertical(@navbar-bg-gradient-top, @navbar-bg-gradient-bottom);
-	
 	.navbar-brand {
 		color: #ffffff;
 	}
@@ -18,6 +18,13 @@
 	
 	.navbar-nav > .active > a  {
 		color: #ffffff;
-		background-color: @theme-col-5;
+		background-color: @navbar-active-link-bg;
+	}
+	
+	.navbar-toggle {
+		.icon-bar {
+			background-color: #ffffff;
+		}
 	}
 } 
+
