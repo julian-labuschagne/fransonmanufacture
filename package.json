@@ -1,5 +1,5 @@
 {
-  "name": "julian.kuberfirma.com",
+  "name": "frontend_tools",
   "version": "1.0.0",
   "devDependencies": {
     "grunt": "^0.4.5",
