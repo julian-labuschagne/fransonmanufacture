@@ -1,4 +1,5 @@
-franson.geany
 bower_components
 node_modules
 public/
+themes/franson/static/assets/css/*
+themes/franson/static/assets/js/*
