@@ -2,7 +2,7 @@
 
 {{ partial "navigation.html" . }}
 
-{{ partial "logo.html" . }}
+{{ partial "logo-content.html" . }}
 
 <section id="gallery">
 	<div class="container">
@@ -13,9 +13,9 @@
 		</div>
 		<div class="row  mg-popup">
 				{{ range .Data.Pages }}
-					<div class="col-md-4">
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
 						<a href="{{.Params.gallery_path}}{{ .Params.image }}" class="thumbnail">
-							<img src="{{.Params.gallery_path}}thumb/{{ .Params.image }}" class="img-responsive">
+							<img src="{{.Params.gallery_path}}thumb/{{ .Params.image }}" class="img-responsive img-rounded">
 						</a>
 					</div>
 				{{ end }}
