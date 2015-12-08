@@ -7,12 +7,12 @@
 		</div>
 		<div class="row  mg-popup">
 			{{ range first 12 (where .Data.Pages "Section" "image") }}
-				<div class="col-md-4">
+				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<a href="{{.Params.gallery_path}}{{ .Params.image }}" class="thumbnail">
 						<img src="{{.Params.gallery_path}}thumb/{{ .Params.image }}" class="img-responsive">
 					</a>
 				</div>
 			{{ end }}
-		</div>	
+		</div>
 	</div>
 </section>
