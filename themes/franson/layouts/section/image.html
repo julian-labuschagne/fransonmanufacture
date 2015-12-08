@@ -21,13 +21,18 @@
 
 			<div class="col-md-9">
 				<div class="row">
-				{{ range first 12 .Data.Pages }}
+				{{ range (.Paginate ( .Data.Pages )).Pages }}
 					<div class="col-md-3 col-sm-4 col-xs-6">
 						<a href="#" class="thumbnail">
 							<img src="{{.Params.gallery_path}}thumb/{{ .Params.image }}" class="img-responsive img-rounded">
 						</a>
 					</div>
 				{{ end }}
+				</div>
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						{{ template "_internal/pagination.html" . }}
+					</div>
 				</div>
 			</div>
 
@@ -48,7 +53,6 @@
 		</div>
 	</div>
 </section>
-
 
 {{ partial "copyright" . }}
 

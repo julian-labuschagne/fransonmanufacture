@@ -2,6 +2,7 @@ theme = "franson"
 baseurl = "http://cheetahexhaust.co.za:9000/"
 languageCode = "en-us"
 title = "Franson Manufacturing"
+paginate = 24
 
 [taxonomies]
 	gallery ="galleries"
@@ -12,7 +13,7 @@ title = "Franson Manufacturing"
     weight = -110
     identifier = "home"
     url = "/"
-    
+
     [[menu.main]]
 	name = "Gallery"
     weight = 110
