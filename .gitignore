@@ -3,3 +3,4 @@ node_modules
 public/
 themes/franson/static/assets/css/*
 themes/franson/static/assets/js/*
+.npm
