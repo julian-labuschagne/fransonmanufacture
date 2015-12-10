@@ -32,8 +32,8 @@ module.exports = function (grunt) {
 			},
 			css: {
 				src: [
-					'bower_components/magnific-popup/dist/magnific-popup.css',
-					'themes/<%= hugo_theme %>/static/assets/css/styles.css'
+					'themes/<%= hugo_theme %>/static/assets/css/styles.css',
+					'bower_components/magnific-popup/dist/magnific-popup.css'
 				],
 				dest: 'themes/<%= hugo_theme %>/static/assets/css/styles.css'
 			}
