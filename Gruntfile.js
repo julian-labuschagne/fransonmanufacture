@@ -40,7 +40,7 @@ module.exports = function (grunt) {
 		},
 
 		exec: {
-			hugo: 'hugo -v'
+			hugo: 'hugo -v  --preserveTaxonomyNames'
 		},
 
 		clean: {
