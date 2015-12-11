@@ -11,15 +11,8 @@
 				<h1>{{ .Title }}</h1>
 			</div>
 		</div>
-		<div class="row  mg-popup">
-				{{ range .Data.Pages }}
-					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
-						<a href="{{.Params.gallery_path}}{{ .Params.image }}" class="thumbnail">
-							<img src="{{.Params.gallery_path}}thumb/{{ .Params.image }}" class="img-responsive img-rounded">
-						</a>
-					</div>
-				{{ end }}
-		</div>
+
+		<!-- Start Back Button -->
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="back-button text-center">
@@ -27,6 +20,30 @@
 				</div>
 			</div>
 		</div>
+		<!-- End Back Button -->
+
+		<!-- Start Gallery Images -->
+		<div class="row mg-popup">
+				{{ range .Data.Pages }}
+					<div class="col-lg-3 col-md-3 col-sm-4 col-xs-6">
+						<a href="{{.Params.url_o }}" class="thumbnail">
+							<img src="{{.Params.url_m }}" class="img-responsive img-rounded">
+						</a>
+					</div>
+				{{ end }}
+		</div>
+		<!-- End Gallery Images -->
+
+		<!-- Start Back Button -->
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="back-button text-center">
+					<a href="/image/" class="btn btn-default">Back to Gallery</a>
+				</div>
+			</div>
+		</div>
+		<!-- End Back Button -->
+
 	</div>
 </section>
 
