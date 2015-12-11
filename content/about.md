@@ -6,42 +6,27 @@ name = "About"
 weight = 100
 +++
 
-In amet *ullum corpora* nam, sint sonet no ius. Laboramus voluptatibus est ne, ei sapientem dissentiet nam. 
-Et laudem option conclusionemque vel, has id nulla delenit vituperata. Ius duis prima no, efficiendi neglegentur 
-te mea. Quis nostrum vel no, alii eleifend ut nec, eum id ludus vidisse lucilius.
+The aftermarket exhaust industry is a very competitive business in South Africa.
+With a wide variety of fitment centres across our country, deciding which centre
+to choose depends heavily on each customer's individual need.
 
-* Et luptatum salutandi mea. Justo libris utroque mei an, exerci aliquip recusabo ei nam. 
-* In pro quaestio consequuntur, ad inermis argumentum mea. 
-* Qui ad tale soleat labores, eu timeam oblique cum, at adhuc nostrum cum. 
-* Paulo albucius an 
-nam, usu exerci accumsan in, causae delicata te cum.
+At Cheetah Exhaust, we specialize in custom build and high performance free flow
+exhaust systems. The capacity to manufacture our own silencers, Branch manifolds
+and accessories has given us the edge over development and improvement.
 
-Populo disputationi id nam. Justo dolorem per eu, est ex eius illud singulis. No vel ferri appetere apeirian, gubergren 
-philosophia an duo, aliquip nominati rationibus ius et. Cum mazim dignissim ei, eos partem latine salutatus ut.
+Experience is the key to progression in this field, and competence the standard
+for achieving success. We have been manufacturing exhaust for the past 21 years
+and our specialised services are accomplished by a skilled staff, each
+experienced in their individual field.
 
-Sed viderer definitionem et, te usu tempor efficiantur. Id sed quas saperet. Ne dolorum theophrastus est, graeco 
-scribentur eloquentiam no nam. Id wisi omnes phaedrum sea.
+Mass production has never been our aim, for we believe individual care needs to
+be taken to accomplish maximum quality and performance at an affordable prices.
 
-Ne adhuc oratio his, posse inermis postulant no duo, quot audire similique te eos. Ut vis munere reprehendunt, ad vel 
-everti aliquid efficiendi. Et meis pericula suscipiantur per, est id case partem tincidunt. Est impetus consulatu 
-elaboraret ne, et eam latine malorum bonorum. His sumo adolescens incorrupte ad, nam at semper quodsi.
+We still employ traditional methods of manufacturing, which in its own right
+increases the effectiveness of our product, due to the fact that each part we
+manufacture, enjoys personal and dedicated attention. For this reason we are
+able to manufacture a wide range of standard, free flow, custom-build, diesel
+and specialised silencers, accessories and many other products.
 
-Alterum vivendo voluptua est an, ferri molestie scaevola per cu. Id reque nostrud per. Ex odio commodo laoreet vix. 
-Vix ne idque eripuit tractatos, eum in invidunt deserunt. Ne aeque laboramus eam, sed id sonet soleat consequat, 
-vis no inani audiam. Eos accusata interesset in, pro ne delectus perfecto ullamcorper.
-
-Erant ceteros cu cum. Ea veniam suscipit erroribus vis, vim ei tota vidisse. Tantas iisque usu te. Partem appetere 
-recusabo eum cu. Sed appareat repudiare an, te vis fabellas abhorreant, te illum animal definitiones mei.
-
-Ut est prima illum decore, ei zril pericula principes mel. Ne mea dolorum suscipit delectus, eu tantas feugiat legimus 
-mel. Te aliquid sententiae mel, ut pri appetere elaboraret. Eu hinc rebum vim, ei pro audire vulputate. Ut nam numquam 
-delenit nominati.
-
-Ei vis illum necessitatibus, eu adhuc erant ius. At per novum pertinacia constituto, per facilisi euripidis et. 
-Ad illum scaevola usu, causae perfecto voluptaria at pri, labitur perpetua sea at. Affert lucilius definitionem pri in. 
-Eos te corpora singulis, his ea virtute splendide, an iudico ceteros mei. Labores eligendi ei vel.
-
-Qui ea novum menandri, ex eum accumsan sadipscing, quaeque debitis torquatos ut vel. His paulo denique tacimates ut, an 
-falli doming mea, duo vocibus scriptorem ut. Ex etiam interpretaris eos, est ad affert delicatissimi, bonorum corpora ut 
-vix. Paulo ignota laoreet no est, novum melius percipit te mei. Qui ex ornatus deleniti, eam ex omittam tractatos. Eum 
-esse deseruisse ei, sit expetenda conceptam ea.
+If you are looking for the individual attention you deserve, you have come to
+the right place.
