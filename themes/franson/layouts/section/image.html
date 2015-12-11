@@ -23,8 +23,8 @@
 				<div class="row mg-popup">
 				{{ range (.Paginate ( .Data.Pages )).Pages }}
 					<div class="col-md-3 col-sm-4 col-xs-6">
-						<a href="{{.Params.gallery_path}}{{ .Params.image }}" class="thumbnail">
-							<img src="{{.Params.gallery_path}}thumb/{{ .Params.image }}" class="img-responsive img-rounded">
+						<a href="{{.Params.url_o }}" class="thumbnail">
+							<img src="{{.Params.url_m }}" class="img-responsive img-rounded">
 						</a>
 					</div>
 				{{ end }}
@@ -45,7 +45,7 @@
 					</div>
 					<div class="list-group">
 						{{ range $name, $taxonomy := .Site.Taxonomies.galleries }}
-							<a href="/galleries/{{ $name | urlize }}" class="list-group-item">{{ $name }}</a>
+							<a href="/galleries/{{ $name | urlize }}" class="list-group-item">{{ $name | title }}</a>
 						{{ end }}
 					</div>
 				</aside>
