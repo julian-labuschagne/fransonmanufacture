@@ -8,11 +8,20 @@
 		<div class="row  mg-popup">
 			{{ range first 12 (where .Data.Pages "Section" "image") }}
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-					<a href="{{.Params.gallery_path}}{{ .Params.image }}" class="thumbnail">
-						<img src="{{.Params.gallery_path}}thumb/{{ .Params.image }}" class="img-responsive img-rounded">
+					<a href="{{.Params.url_o }}" class="thumbnail">
+						<img src="{{.Params.url_m }}" class="img-responsive img-rounded">
 					</a>
 				</div>
 			{{ end }}
 		</div>
+
+		<!-- Start View All Button -->
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<a href="/image/" class="btn btn-default">View All</a>
+			</div>
+		</div>
+		<!-- End View All Button -->
+
 	</div>
 </section>
